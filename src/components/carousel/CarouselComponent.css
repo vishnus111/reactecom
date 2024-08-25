@@ -1,0 +1,7 @@
+/* src/components/CarouselComponent.css */
+.carousel-item img {
+    width: 100%;
+    height:700px; /* Set the desired height */
+    object-fit: cover;
+  }
+  

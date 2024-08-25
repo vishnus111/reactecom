@@ -1,0 +1,29 @@
+/* Increase Navbar Height */
+.navbar {
+    height: 80px; /* Set the desired height */
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Change navbar background and text color when scrolling */
+  .navbar.scrolled {
+    background-color: white; /* Change background to white */
+    color: black; /* Change text color to black */
+  }
+  
+  /* Adjust the color of the links when the navbar is scrolled */
+  .navbar.scrolled .navbar-brand,
+  .navbar.scrolled .nav-link {
+    color: black; /* Change the link color to black */
+  }
+  
+  /* Ensure the links remain white in the original dark navbar */
+  .navbar .navbar-brand,
+  .navbar .nav-link {
+    color: white;
+  }
+  
+  /* Adjust link hover state for the scrolled navbar */
+  .navbar.scrolled .nav-link:hover {
+    color: #555; /* Change the hover color to a dark grey */
+  }
+  
